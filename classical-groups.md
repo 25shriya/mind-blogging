@@ -1,3 +1,4 @@
+{% include math.html %}
 ## An Introduction to Classical Groups
 
 #### Shriya Meenakshisundaram
