@@ -37,7 +37,7 @@ Here's a sequence of lemmas (accompanied by a summary of the proof) that lead to
 2. Taking this forward, assuming $I_{m} \, + \, \beta\alpha \, \in \, GL_{m}(R)$, we have  $I_n \, + \, \alpha\beta \, \in GL_n(R)$. Subsequently, we obtain the matrix
 ```math
 \begin{bmatrix}
-I_n + \alpha\beta  & 0 \\\
+I_n + \alpha\beta  & 0 \\
 0 & (I_m + \beta\alpha)^{-1}
 \end{bmatrix}
 ```
@@ -47,7 +47,7 @@ as a product of conjugates of elements of $E_{n}(R,J)$, implying that the above 
 ```math
 \alpha =
 \begin{bmatrix}
-\alpha' \\\
+\alpha' \\
 0
 \end{bmatrix}
 ```
