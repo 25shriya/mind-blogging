@@ -44,13 +44,13 @@ $$
 as a product of conjugates of elements of $E_{n}(R,J)$, implying that the above matrix lies in $E_{n+m}(R,J)$ as the latter is a normal subgroup of $E_{n}(R)$.
 
 4. Now, we narrow down the argument to the case when $m = 1$ and when $\beta\alpha = 0$. In such a case we can prove that $I_n + \alpha\beta \, \in \, E_{n+1}(R,J)$ (under suspension[^1]), as an extension of the argument from the above theorem by plugging in the value of $m$ and $\beta\alpha$. In a special case of this theorem, when $\alpha$ has at least one zero coordinate, we prove that $I_{n} + \alpha\beta \, \in \, E_{n+1}(R,J)$, by taking
-```math
+$$
 \alpha =
-\begin{bmatrix}
+\begin{pmatrix}
 \alpha' \\
 0
-\end{bmatrix}
-```
+\end{pmatrix}
+$$
 and
 $$
 \beta =
