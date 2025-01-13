@@ -35,12 +35,12 @@ Here's a sequence of lemmas (accompanied by a summary of the proof) that lead to
 1. Here's a theorem that takes two arbitrary matrices $\alpha \, \in \, M_{n \times m}(J)$ and $\beta \, \in \, M_{m \times n}(R)$. We claim that $I_{n} \, + \, \alpha\beta$ is invertible $\iff$ $I_{m} \, + \, \beta\alpha$ is invertible. To prove forward implication, we assume $I_n \, + \, \alpha\beta$ is invertible with inverse matrix $\gamma$. A bit of algebra shows that $I_{m} \, - \, \beta\gamma\alpha$ is the inverse of $I_m \, + \, \beta\alpha$, thus concluding the proof. The backward implication follows from a similar argument on $I_m \, + \, \beta\alpha$.
 
 2. Taking this forward, assuming $I_{m} \, + \, \beta\alpha \, \in \, GL_{m}(R)$, we have  $I_n \, + \, \alpha\beta \, \in GL_n(R)$. Subsequently, we obtain the matrix
-```math
-\begin{bmatrix}
+$$
+\begin{matrix}
 I_n + \alpha\beta  & 0 \\
 0 & (I_m + \beta\alpha)^{-1}
-\end{bmatrix}
-```
+\end{matrix}
+$$
 as a product of conjugates of elements of $E_{n}(R,J)$, implying that the above matrix lies in $E_{n+m}(R,J)$ as the latter is a normal subgroup of $E_{n}(R)$.
 
 4. Now, we narrow down the argument to the case when $m = 1$ and when $\beta\alpha = 0$. In such a case we can prove that $I_n + \alpha\beta \, \in \, E_{n+1}(R,J)$ (under suspension[^1]), as an extension of the argument from the above theorem by plugging in the value of $m$ and $\beta\alpha$. In a special case of this theorem, when $\alpha$ has at least one zero coordinate, we prove that $I_{n} + \alpha\beta \, \in \, E_{n+1}(R,J)$, by taking
